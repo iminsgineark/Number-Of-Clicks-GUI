@@ -42,6 +42,7 @@ public class NumberOfClicks_GUI implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         count++;
         label.setText("Number Of Clicks : " + count);
+        System.out.println(e);
     }
 }
 
